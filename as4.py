@@ -98,6 +98,7 @@ def example_ssm():
     anim.save("images/line.gif", dpi=150, writer="imagemagick")
 
 
+# https://srush.github.io/annotated-s4/
 if __name__ == "__main__":
     # For this tutorial, construct a global JAX rng key
     # But we don't want it when importing as a library
